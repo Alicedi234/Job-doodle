@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "category": "software engineer",
+      "category_id": 1,
+      "company": "Smart Tech Solutions",
+      "role_title": "Software Engineer II",
+      "description":
+        "Are you a proficient Software Engineer II with a passion for innovation and a drive to shape the future of online shopping at The Smart Tech Solutions? If you are ambitious and result-oriented, we want you on our team! The Smart Tech Solutions Shopping team is looking for an experienced frontend engineer to create a new, immersive shopping experience. Join us and be a part of revolutionizing the online shopping experience!",
+      "salary": 200000,
+      "location": "Texas",
+      "skills": [
+        "Bachelor's Degree in Computer Science",
+        "10 years full stack experience"
+      ],
+      "photo": "photos/002.png"
+    },
+  
+    {
+      "id": 2,
+      "category": "software engineer",
+      "category_id": 1,
+      "company": "Smilebook",
+      "role_title": "Senior Full-Stack Software Engineer (Backend focus)",
+      "description":
+        "We're building our foundational team and looking for a senior full-stack engineer to leave their mark on Pod. You'll have direct and significant impact on the business trajectory, playing a central role in product development to building the best AI workspace for sales people.",
+      "salary": 150000,
+      "location": "Montreal",
+      "skills": [
+        "4+ years of experience in computer science or software engineering."
+      ],
+      "photo": "photos/001.png"
+    },
+  
+    {
+      "id": 3,
+      "category": "software engineer",
+      "category_id": 1,
+      "company": "Infintium",
+      "role_title": "Full Stack Developer",
+      "description":
+        "The Radiology Software Engineer is responsible for the requirement analysis, design, implementation, developer testing, maintenance and support of all Radiology products.",
+      "salary": 100000,
+      "location": "Montreal",
+      "skills": [
+        "4+ years of experience in computer science or software engineering."
+      ],
+      "photo": "photos/003.png"
+    },
+  
+    {
+      "id": 4,
+      "category": "software engineer",
+      "category_id": 1,
+      "company": "Curewave",
+      "role_title":
+        "As a Senior Clinical Programmer I, you will be at the forefront of programming, dashboard development, and validation of data cleaning and review listings for ongoing clinical studies. This role demands high technical skills and industry knowledge to independently perform programming tasks while exercising judgment in complex situations. You will also contribute to cross-functional initiatives with high complexity, ensuring the seamless integration of data and technology in clinical trials.",
+      "salary": 80000,
+      "location": "Montreal",
+      "skills": [
+        "Master’s degree or equivalent in a STEM field",
+        "Skilled in Power BI/SpotFire or other dashboard technologies",
+        "Accomplished in SAS, Python, R, SQL"
+      ],
+      "photo": "photos/004.png"
+    }
+  ]
