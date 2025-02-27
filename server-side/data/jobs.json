@@ -1,67 +1,271 @@
 [
-    {
-      "id": 1,
-      "category": "software engineer",
-      "category_id": 1,
-      "company": "Smart Tech Solutions",
-      "role_title": "Software Engineer II",
-      "description":
-        "Are you a proficient Software Engineer II with a passion for innovation and a drive to shape the future of online shopping at The Smart Tech Solutions? If you are ambitious and result-oriented, we want you on our team! The Smart Tech Solutions Shopping team is looking for an experienced frontend engineer to create a new, immersive shopping experience. Join us and be a part of revolutionizing the online shopping experience!",
-      "salary": 200000,
-      "location": "Texas",
-      "skills": [
-        "Bachelor's Degree in Computer Science",
-        "10 years full stack experience"
-      ],
-      "photo": "photos/002.png"
-    },
-  
-    {
-      "id": 2,
-      "category": "software engineer",
-      "category_id": 1,
-      "company": "Smilebook",
-      "role_title": "Senior Full-Stack Software Engineer (Backend focus)",
-      "description":
-        "We're building our foundational team and looking for a senior full-stack engineer to leave their mark on Pod. You'll have direct and significant impact on the business trajectory, playing a central role in product development to building the best AI workspace for sales people.",
-      "salary": 150000,
-      "location": "Montreal",
-      "skills": [
-        "4+ years of experience in computer science or software engineering."
-      ],
-      "photo": "photos/001.png"
-    },
-  
-    {
-      "id": 3,
-      "category": "software engineer",
-      "category_id": 1,
-      "company": "Infintium",
-      "role_title": "Full Stack Developer",
-      "description":
-        "The Radiology Software Engineer is responsible for the requirement analysis, design, implementation, developer testing, maintenance and support of all Radiology products.",
-      "salary": 100000,
-      "location": "Montreal",
-      "skills": [
-        "4+ years of experience in computer science or software engineering."
-      ],
-      "photo": "photos/003.png"
-    },
-  
-    {
-      "id": 4,
-      "category": "software engineer",
-      "category_id": 1,
-      "company": "Curewave",
-      "role_title":
-        "As a Senior Clinical Programmer I, you will be at the forefront of programming, dashboard development, and validation of data cleaning and review listings for ongoing clinical studies. This role demands high technical skills and industry knowledge to independently perform programming tasks while exercising judgment in complex situations. You will also contribute to cross-functional initiatives with high complexity, ensuring the seamless integration of data and technology in clinical trials.",
-      "salary": 80000,
-      "location": "Montreal",
-      "skills": [
-        "Master’s degree or equivalent in a STEM field",
-        "Skilled in Power BI/SpotFire or other dashboard technologies",
-        "Accomplished in SAS, Python, R, SQL"
-      ],
-      "photo": "photos/004.png"
-    }
-  ]
+  {
+    "id": 1,
+    "category": "software engineer",
+    "category_id": 1,
+    "company": "Smart Tech Solutions",
+    "role_title": "Software Engineer II",
+    "description":
+      "Are you a proficient Software Engineer II with a passion for innovation and a drive to shape the future of online shopping at The Smart Tech Solutions? If you are ambitious and result-oriented, we want you on our team! The Smart Tech Solutions Shopping team is looking for an experienced frontend engineer to create a new, immersive shopping experience. Join us and be a part of revolutionizing the online shopping experience!",
+    "salary": 200000,
+    "location": "Texas",
+    "skills": [
+      "Bachelor's Degree in Computer Science",
+      "10 years full stack experience"
+    ],
+    "photo": "photos/002.png"
+  },
+
+  {
+    "id": 2,
+    "category": "software engineer",
+    "category_id": 1,
+    "company": "Smilebook",
+    "role_title": "Senior Full-Stack Software Engineer (Backend focus)",
+    "description":
+      "We're building our foundational team and looking for a senior full-stack engineer to leave their mark on Pod. You'll have direct and significant impact on the business trajectory, playing a central role in product development to building the best AI workspace for sales people.",
+    "salary": 150000,
+    "location": "Montreal",
+    "skills": [
+      "4+ years of experience in computer science or software engineering."
+    ],
+    "photo": "photos/001.png"
+  },
+
+  {
+    "id": 3,
+    "category": "software engineer",
+    "category_id": 1,
+    "company": "Infintium",
+    "role_title": "Full Stack Developer",
+    "description":
+      "The Radiology Software Engineer is responsible for the requirement analysis, design, implementation, developer testing, maintenance and support of all Radiology products.",
+    "salary": 100000,
+    "location": "Montreal",
+    "skills": [
+      "4+ years of experience in computer science or software engineering."
+    ],
+    "photo": "photos/003.png"
+  },
+
+  {
+    "id": 4,
+    "category": "software engineer",
+    "category_id": 1,
+    "company": "Curewave",
+    "role_title": "Senior Clinical Programmer I",
+    "description":
+      "As a Senior Clinical Programmer I, you will be at the forefront of programming, dashboard development, and validation of data cleaning and review listings for ongoing clinical studies. This role demands high technical skills and industry knowledge to independently perform programming tasks while exercising judgment in complex situations. You will also contribute to cross-functional initiatives with high complexity, ensuring the seamless integration of data and technology in clinical trials.",
+    "salary": 300000,
+    "location": "San Francisco",
+    "skills": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "React or Angular",
+      "Node.js",
+      "Express.js",
+      "SQL (PostgreSQL, MySQL) & NoSQL (MongoDB)",
+      "RESTful & GraphQL API development"
+    ],
+    "photo": "photos/004.png"
+  },
+  {
+    "id": 5,
+    "category": "software engineer",
+    "category_id": 1,
+    "company": "Astrolab",
+    "role_title": "Clinical Data Engineer",
+    "description":
+      "The Clinical Data Engineer role serves the purpose of fostering innovation and operational efficiency through the facilitation of data-driven decision-making processes, expediting drug discovery initiatives, and bolstering regulatory compliance efforts. This role involves designing and implementing customized data pipeline architecture solutions tailored to the complexities of life sciences research and development. It also includes supervising the integration and management of various clinical data and data sources, such as clinical trials data, operational data, lab data, wearables data, and real-world evidence.",
+    "salary": 170000,
+    "location": "Toronto",
+    "skills": [
+      "Master’s degree or equivalent in a STEM field",
+      "Skilled in Power BI/SpotFire or other dashboard technologies",
+      "Accomplished in SAS, Python, R, SQL"
+    ],
+    "photo": "photos/005.png"
+  },
+  {
+    "id": 6,
+    "category": "product manager",
+    "category_id": 2,
+    "company": "TechNova Solutions",
+    "role_title": "Software Project Manager",
+    "description":
+      "TechNova Solutions is looking for a Software Project Manager to oversee the development of cutting-edge web applications. You will be responsible for coordinating teams, managing sprints, and ensuring timely delivery of projects.",
+    "salary": 130000,
+    "location": "San Francisco, CA",
+    "skills": [
+      "Agile",
+      "Scrum",
+      "JIRA",
+      "Software Development Lifecycle",
+      "Stakeholder Management"
+    ],
+    "photo": "photos/006.png"
+  },
+  {
+    "id": 7,
+    "category": "product manager",
+    "category_id": 2,
+    "company": "Astrolab",
+    "role_title": "Senior IT Project Manager",
+    "description":
+      "Astrolab is seeking a Senior IT Project Manager with experience in the biotech industry. You will work closely with software engineers and scientists to develop innovative data management tools.",
+    "salary": 115000,
+    "location": "Boston, MA",
+    "skills": [
+      "Biotech",
+      "Agile",
+      "Kanban",
+      "Budget Management",
+      "Risk Assessment"
+    ],
+    "photo": "photos/005.png"
+  },
+  {
+    "id": 8,
+    "category": "product manager",
+    "category_id": 2,
+    "company": "Smilebook",
+    "role_title": "Technical Project Manager",
+    "description":
+      "Join Smilebook as a Technical Project Manager and lead cloud infrastructure projects. You will collaborate with engineering teams to ensure seamless deployment of cloud-based solutions.",
+    "salary": 125000,
+    "location": "Seattle, WA",
+    "skills": ["Cloud Computing", "AWS", "Azure", "Scrum", "DevOps"],
+    "photo": "photos/001.png"
+  },
+  {
+    "id": 9,
+    "category": "product manager",
+    "category_id": 2,
+    "company": "Infintium",
+    "role_title": "AI Software Project Manager",
+    "description":
+      "Infintium is hiring an AI Software Project Manager to lead machine learning projects. You will coordinate cross-functional teams and manage AI model deployment timelines.",
+    "salary": 140000,
+    "location": "New York, NY",
+    "skills": [
+      "AI",
+      "Machine Learning",
+      "Python",
+      "Project Roadmap Planning",
+      "Cross-functional Team Leadership"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "product manager",
+    "category_id": 2,
+    "company": "Technova Solutions",
+    "role_title": "Agile Project Manager",
+    "description":
+      "Technova Solutions is seeking an Agile Project Manager to drive financial technology projects. You will ensure Agile best practices are followed and enhance software delivery processes.",
+    "salary": 120000,
+    "location": "Chicago, IL",
+    "skills": [
+      "Agile",
+      "Scrum Master",
+      "Financial Technology",
+      "Stakeholder Communication",
+      "Process Optimization"
+    ],
+    "photo": "photos/006.png"
+  },
+  {
+    "id": 11,
+    "category": "UX Design",
+    "category_id": 3,
+    "company": "Smilebook",
+    "role_title": "Senior UX Researcher",
+    "description":
+      "Smilebook is seeking a Senior UX Researcher to conduct user studies and analyze feedback to enhance our products.",
+    "salary": 110000,
+    "location": "San Francisco, CA",
+    "skills": [
+      "User Research",
+      "A/B Testing",
+      "Data Analysis",
+      "Wireframing",
+      "Figma"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "UX Design",
+    "category_id": 3,
+    "company": "Infintium",
+    "role_title": "UI/UX Designer",
+    "description":
+      "Infintium is looking for a UI/UX Designer to create intuitive interfaces for our digital media platform.",
+    "salary": 95000,
+    "location": "Austin, TX",
+    "skills": [
+      "UI Design",
+      "Prototyping",
+      "Sketch",
+      "Adobe XD",
+      "Usability Testing"
+    ],
+    "photo": "photos/003.png"
+  },
+  {
+    "id": 13,
+    "category": "UX Design",
+    "category_id": 3,
+    "company": "Curewave",
+    "role_title": "UX Researcher",
+    "description":
+      "Curewave needs a UX Researcher to conduct usability studies and collaborate with designers and engineers on brain-computer interface technologies.",
+    "salary": 105000,
+    "location": "Toronto, CA",
+    "skills": [
+      "User Testing",
+      "Survey Design",
+      "Psychology",
+      "HCI",
+      "Data Visualization"
+    ],
+    "photo": "photos/004.png"
+  },
+  {
+    "id": 14,
+    "category": "UX Design",
+    "category_id": 3,
+    "company": "SmartTech Solutions",
+    "role_title": "Product Designer",
+    "description":
+      "SmartTech Solutions is hiring a Product Designer to craft engaging AI-powered tools with a strong focus on user experience.",
+    "salary": 115000,
+    "location": "New York, NY",
+    "skills": [
+      "Figma",
+      "AI Interaction Design",
+      "User Flow",
+      "Storyboarding",
+      "Wireframing"
+    ],
+    "photo": "photos/002.png"
+  },
+  {
+    "id": 15,
+    "category": "UX Design",
+    "category_id": 3,
+    "company": "Astrolab",
+    "role_title": "Healthcare UX Researcher",
+    "description":
+      "Astrolab is looking for a UX Researcher to optimize digital healthcare platforms and improve patient engagement.",
+    "salary": 108000,
+    "location": "Seattle, WA",
+    "skills": [
+      "Healthcare UX",
+      "Accessibility",
+      "Ethnographic Research",
+      "User Personas",
+      "Journey Mapping"
+    ],
+    "photo": "photos/005.png"
+  }
+]
