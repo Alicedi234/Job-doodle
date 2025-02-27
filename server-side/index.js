@@ -1,9 +1,11 @@
 import express from "express";
 import fs from "fs";
 import "dotenv/config";
-
+import cors from "cors";
 const app = express();
 const port = process.env.PORT || 3000;
+
+app.use(cors());
 
 //app get
 app.get("/welcome", (req, res) => {
