@@ -8,6 +8,12 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 //app get
+=======
+//midlleware to parse the request body
+app.use(express.json());
+app.use(express.static("public/photos"));
+
+//get method to check if server is running
 app.get("/welcome", (req, res) => {
   res.send("Hello World");
 });
