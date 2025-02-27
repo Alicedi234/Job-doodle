@@ -14,7 +14,14 @@ app.get("/welcome", (req, res) => {
 app.get("/", (_req, res) => {
   const jobsFile = fs.readFileSync("./data/jobs.json");
   const jobsData = JSON.parse(jobsFile);
-  res.send(jobsData);
+  const jobsForHomePage = jobsData.map((job) => {
+    return {
+      title: job.category,
+      company: job.company,
+      location: job.location,
+    };
+  });
+  res.send(jobsForHomePage);
 
   //to filter the data to show we can use map function on jobsData
 });
@@ -26,7 +33,23 @@ app.get("/:categoryId", (req, res) => {
   const categoryId = parseInt(req.params.categoryId, 10);
   console.log(req.params);
   const filteredJobs = jobsData.filter((job) => job.category_id === categoryId);
-  res.send(filteredJobs);
+  const jobsForCategory = filteredJobs.map((job) => {
+    return {
+      title: job.category,
+      company: job.company,
+      location: job.location,
+    };
+  });
+  res.send(jobsForCategory);
+});
+
+//app method to get job based on job id
+app.get("/job/:jobId", (req, res) => {
+  const jobsFile = fs.readFileSync("./data/jobs.json");
+  const jobsData = JSON.parse(jobsFile);
+  const jobId = parseInt(req.params.jobId, 10);
+  const job = jobsData.find((job) => job.id === jobId);
+  res.send(job);
 });
 
 //listen to server
