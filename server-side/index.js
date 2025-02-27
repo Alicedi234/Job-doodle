@@ -1,10 +1,14 @@
 import express from "express";
 import fs from "fs";
 import "dotenv/config";
-
+import cors from "cors";
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(cors());
+
+//app get
+=======
 //midlleware to parse the request body
 app.use(express.json());
 app.use(express.static("public/photos"));
